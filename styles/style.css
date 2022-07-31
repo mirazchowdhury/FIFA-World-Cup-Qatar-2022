@@ -60,6 +60,7 @@ body {
 }
 
 .menu {
+    display: flex;
     margin-top: 130px;
     margin-left: 140px;
     width: 255px;
@@ -68,11 +69,17 @@ body {
     top: 826px;
     background: #161616;
     border-radius: 10px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 24px;
 }
 
+.menu-box-2 {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.news-menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
 #menu-1 {
     margin-top: 30px;
