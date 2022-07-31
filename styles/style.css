@@ -1,0 +1,131 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 646px;
+    margin-left: 140px;
+    margin-top: 50px;
+    margin-right: 140px;
+    background: #5e0094;
+    border-radius: 30px;
+}
+
+.intro-title {
+    padding-top: 111px;
+    padding-bottom: 111px;
+    padding-left: 106px;
+}
+
+.intro-title h2 {
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+
+.intro-title p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.intro-title input {
+    width: 187px;
+    height: 56px;
+    left: 246px;
+    top: 529px;
+    background: #DD0000;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.intro-pic img {
+    margin-right: 79px;
+    margin-top: 33px;
+    margin-left: 24px;
+    width: 581px;
+    height: 613px;
+    /* left: 801px; */
+    /* top: 83px; */
+}
+
+.menu {
+    margin-top: 130px;
+    margin-left: 140px;
+    width: 255px;
+    height: 350px;
+    left: 140px;
+    top: 826px;
+    background: #161616;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+}
+
+
+#menu-1 {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    width: 187px;
+    height: 56px;
+    left: 246px;
+    top: 529px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: #161616;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#menu-2 {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    width: 187px;
+    height: 56px;
+    left: 246px;
+    top: 529px;
+    background: #DD0000;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.news-details button {
+    width: 100px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.news-banner img {
+    width: 312px;
+    height: 175px;
+}
+
+.time-comments {
+    height: 26px;
+    width: 143px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
